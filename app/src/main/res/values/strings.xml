@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ProjectMobileApps</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Don\'t have an account? Sign up</string>
+    <string name="welcome">Welcome!</string>
+    <string name="log_out">Log out</string>
+    <string name="cart">Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="product_id">Product ID</string>
+    <string name="quantity">Quantity</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="number">Number</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="zipcode">Zipcode</string>
+    <string name="geolocation_lat">Geolocation Lat</string>
+    <string name="geolocation_long">Geolocation Long</string>
+    <string name="phone">Phone</string>
+    <string name="save">Save</string>
+    <string name="category_name">Category Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="details">Details</string>
+    <string name="categoryimage">CategoryImage</string>
+    <string name="arrowimage">ArrowImage</string>
+    <string name="productimage">ProductImage</string>
+</resources>

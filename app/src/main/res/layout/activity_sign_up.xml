@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="VisualLintOverlap" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextUsername"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/first_name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFirstName"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/last_name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLastName"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNumber"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/street"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextStreet"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/city"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextZipcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCity"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/zipcode"
+        android:inputType="number"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextGeolocationLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextZipcode"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/geolocation_lat"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextGeolocationLong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextGeolocationLat"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/geolocation_long"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextGeolocationLong"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        tools:ignore="VisualLintButtonSize" />
+
+</RelativeLayout>
